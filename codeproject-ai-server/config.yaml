@@ -1,25 +1,24 @@
----
 name: CodeProject AI.Server
-version: 5ffa855
+version: 0.0.1-alpha
 url: https://hub.docker.com/r/codeproject/ai-server
-image: "ghcr.io/stevusprimus-hassio-addons/codeproject-ai-server/{arch}"
+image: ghcr.io/stevusprimus-hassio-addons/codeproject-ai-server/{arch}
 panel_icon: mdi:face-recognition
 slug: codeproject-ai-server
 description: standalone open-source AI server
 arch:
-  - amd64
-  - aarch64
+- amd64
+- aarch64
 startup: services
 init: false
 usb: true
 video: true
 webui: http://[HOST]:[PORT:32168]
 privileged:
-  - PERFMON
+- PERFMON
 ports:
   32168/tcp: 32168
   32168/udp: 32168
 map:
-  - addon_config:rw
+- addon_config:rw
 environment:
-  HA_ADDON: "true"
+  HA_ADDON: 'true'
