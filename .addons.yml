@@ -1,5 +1,5 @@
 ---
-channel: edge
+channel: beta
 addons:
   codeproject-ai-server:
     repository: stevusprimus-hassio-addons/addon-codeproject-ai-server
