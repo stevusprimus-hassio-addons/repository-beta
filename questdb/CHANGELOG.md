@@ -1,3 +1,3 @@
-# v0.0.1-alpha
+# v0.0.1-beta
 
-Yeah Frist release :)
+It is getting serious!
