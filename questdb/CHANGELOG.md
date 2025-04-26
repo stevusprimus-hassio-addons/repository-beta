@@ -1,3 +1,3 @@
-# v0.0.1-beta2
+# v1.0.0-RC1
 
-Small little corrections
+Release Candidate One!
